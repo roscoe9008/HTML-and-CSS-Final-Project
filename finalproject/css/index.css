@@ -1,0 +1,33 @@
+.content, nave{
+	overflow:hidden;
+	margin:11px;
+}
+.rows{
+	overflow:hidden; text-align:center;
+}
+.column-1{ width:10%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-2{ width:20%; float:left; overflow:hidden; display:inline-block; text-align:center;  }
+.column-3{ width:33%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-4{ width:40%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-5{ width:50%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-6{ width:60%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-7{ width:70%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-8{ width:80%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-9{ width:90%; float:left; overflow:hidden; display:inline-block; text-align:center; }
+.column-10{ width:100%; float:left; overflow:hidden; display:inline-block; text-align:center;  }
+
+.menu{ width:90px; display:inline-block; }
+
+@media (max-width: 800px) {
+	.column-1{ width:33%; float:left; overflow:hidden; }
+	.column-2{ width:50%; float:left; overflow:hidden; }
+	.column-3{ width:100%; float:left; overflow:hidden; }
+	.column-4{ width:100%; float:left; overflow:hidden; }
+	.column-5{ width:100%; float:left; overflow:hidden; }
+	.column-6{ width:100%; float:left; overflow:hidden; }
+	.column-7{ width:100%; float:left; overflow:hidden; }
+	.column-8{ width:100%; float:left; overflow:hidden; }
+	.column-9{ width:100%; float:left; overflow:hidden; }
+	.column-10{ width:100%; float:left; overflow:hidden; }
+	.menu{ width:90%; display:block; }
+}
